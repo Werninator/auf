@@ -1,6 +1,7 @@
-var lv = (1 - hp / maxHP) * 255
+var lv = hp / maxHP * 255
 
-if lv > 100
-	image_blend = make_color_rgb(lv, 0, 0)
+if lv <= 100
+	image_blend = make_color_rgb(255, lv, lv)
 
 draw_self();
+draw_line(x, y, destination.x, destination.y)

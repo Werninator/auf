@@ -9,6 +9,7 @@ repeat(movSpd) {
 	if x + s == destinationX {
 		state = People.enterElevator
 		exit
-	} else if !place_meeting(x + s, y, oPeople)
+	} else if !place_meeting(x + s, y, oPeople) {
 		x += s
+	}
 }

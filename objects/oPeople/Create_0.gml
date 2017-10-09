@@ -10,3 +10,4 @@ movSpd = 2
 destination = noone
 maxHP = 10
 hp = maxHP
+ignoreOthers = true

@@ -1,12 +1,14 @@
-if !place_meeting(x, y, oElevator) {
-	draw_self()
+if place_meeting(x, y, oElevator)
+	exit
 
-	draw_set_color(c_white)
-	draw_set_alpha(1)
-	draw_set_font(fConsolas)
+draw_self()
 
-	var textBoxX = x - (string_width(name) / 2) + (sprite_width / 2)
-	var textBoxY = y - (string_height(name) / 2) + (sprite_height / 2) + 2
+draw_set_color(c_white)
+draw_set_alpha(1)
+draw_set_font(fConsolas)
 
-	draw_text(textBoxX, textBoxY, name)
-}
+var textBoxX = x - (string_width(name) / 2) + (sprite_width / 2)
+var textBoxY = y - (string_height(name) / 2) + (sprite_height / 2) + 2
+
+draw_text(textBoxX, textBoxY, name)
+ 
