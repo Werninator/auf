@@ -2,7 +2,7 @@ randomize()
 
 spawns = []
 
-scrAddSpawn(oDude, oDoorArriving, 3, 10)
+scrAddSpawn(oDude, oDoorArriving, 6, 10)
 scrAddSpawn(oDude, oDoorLeaving, 3, 10)
 
 // how long is a tick
