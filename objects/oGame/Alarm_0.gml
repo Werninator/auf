@@ -7,7 +7,9 @@ with oPeople event_perform(ev_collision, evtTick)
 
 // handling spawn patterns
 for (var i = 0; i < array_height_2d(spawns); i++) {
-	if !--spawns[i, 4] {
+	spawns[i, 4]--;
+
+	if !spawns[i, 4] {
 		spawns[i, 4] = irandom_range(
 			spawns[i, 2],
 			clamp(spawns[i, 3] - difficulty, 1, spawns[i, 3])
