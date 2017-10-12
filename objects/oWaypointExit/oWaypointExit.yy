@@ -1,13 +1,13 @@
 {
-    "id": "5cca6824-dbfb-4638-99a3-e67d14d31ad2",
+    "id": "196c1a9f-f41c-415a-b3f7-9c65747377d1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oDoorArrive",
+    "name": "oWaypointExit",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "parentObjectId": "bb1f7c4b-5c78-4429-9194-156ff46eb9db",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "fda7359b-5a28-4f07-99c9-c2f8591bf544",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

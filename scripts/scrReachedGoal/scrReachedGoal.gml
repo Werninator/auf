@@ -1,7 +1,9 @@
 instance_destroy()
 
+var ptsGained = hp
+
 with oGame {
-	points += 1
+	points += ptsGained
 
 	global.highscore = points
 }

@@ -1,13 +1,14 @@
 enum People {
-	goToElevator = stGoToElevator,
-	enterElevator = stEnterElevator,
-	waitForElevator = stWaitForElevator,
-	goToDestination = stGoToDestination
+	goToElevator	= stGoToElevator,
+	enterElevator	= stEnterElevator,
+	waitForElevator	= stWaitForElevator,
+	goToDestination	= stGoToDestination
 }
 
-state = People.goToElevator
-movSpd = 2
-destination = noone
-maxHP = 10
-hp = maxHP
-ignoreOthers = true
+state			= People.goToElevator
+movSpd			= 2
+destination		= noone
+maxHP			= 12
+hp				= maxHP
+ignoreOthers	= true
+walking			= false

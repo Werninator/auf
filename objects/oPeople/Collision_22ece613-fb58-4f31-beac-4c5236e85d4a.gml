@@ -11,5 +11,8 @@ repeat(movSpd) {
 		exit
 	} else if !place_meeting(x + s, y, oPeople) {
 		x += s
+		walking = true
+	} else {
+		walking = false
 	}
 }

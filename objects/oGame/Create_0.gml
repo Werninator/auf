@@ -2,12 +2,13 @@ randomize()
 
 spawns = []
 
-scrAddSpawn(oDude, oDoorArriving, 6, 10)
-scrAddSpawn(oDude, oDoorLeaving, 3, 10)
+scrAddSpawn(oDude, oDoorArriving, 3, 6)
+scrAddSpawn(oDude, oDoorLeaving, 3, 6)
+// scrAddSpawn(oDudeFat, oDoorLeaving, 1, 1)
 
 // how long is a tick
-tick = game_get_speed(gamespeed_fps) * .6
-increaseDifficultyTimer = tick * 10
+tick = game_get_speed(gamespeed_fps)
+increaseDifficultyTimer = tick * 13
 
 // start spawning
 alarm[0] = tick

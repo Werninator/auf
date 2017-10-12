@@ -1,4 +1,4 @@
-// get the instace
+// get the instance
 inst = instance_position(mouse_x, mouse_y, oElevatorStop)
 
 if inst == noone
