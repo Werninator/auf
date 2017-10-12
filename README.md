@@ -2,7 +2,7 @@
 
 > a game about elevators
 
-* [DOWNLOAD CURRENT VERSION](https://github.com/Werninator/auf/releases/tag/v0.1.0-alpha)
+* [DOWNLOAD CURRENT VERSION](https://github.com/Werninator/auf/releases/tag/v0.2.0-alpha)
 
 in **auf** you control elevator(s) to bring different people from one floor to another
 
