@@ -12,3 +12,4 @@ maxHP			= 12
 hp				= maxHP
 ignoreOthers	= true
 walking			= false
+tint			= c_white

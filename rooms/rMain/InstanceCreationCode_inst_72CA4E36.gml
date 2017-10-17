@@ -1,1 +1,1 @@
-image_blend = c_purple
+image_blend = c_orange

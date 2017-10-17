@@ -103,14 +103,6 @@
             }
         },
         {
-            "Key": "196c1a9f-f41c-415a-b3f7-9c65747377d1",
-            "Value": {
-                "id": "23e118c2-ba66-4bbf-99de-c89fa838dca7",
-                "resourcePath": "objects\\oWaypointExit\\oWaypointExit.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "1fa9f152-5ec0-40eb-8d9f-27788cc1bd51",
             "Value": {
                 "id": "2ac5f971-fda5-4a06-b412-591a4faadb2e",
