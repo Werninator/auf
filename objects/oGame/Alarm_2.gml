@@ -1,0 +1,2 @@
+/// @description combo timer
+scrResetScore()

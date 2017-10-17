@@ -1,0 +1,1 @@
+y -= global.dt_steady * 40

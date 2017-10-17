@@ -21,4 +21,9 @@ incidents = 0
 maxIncidents = 3
 difficulty = 0
 
+comboTimer = tick
+combo = 1
+lastComboDoor = noone
+
+
 global.highscore = points

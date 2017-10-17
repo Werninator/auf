@@ -1,5 +1,5 @@
 event_inherited()
 
-width = 50
-height = 25
+width = 100
+height = 50
 text = "CLOSE"

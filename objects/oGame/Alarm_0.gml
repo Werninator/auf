@@ -1,6 +1,7 @@
 /// @description tick manager
 
 alarm[0] = tick
+comboTimer = tick
 
 // trigger tick event
 with oPeople event_perform(ev_collision, evtTick)
