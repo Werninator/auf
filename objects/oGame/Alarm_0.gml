@@ -23,6 +23,7 @@ for (var i = 0; i < array_height_2d(spawns); i++) {
 			? oDoorLeave
 			: oDoorArrive
 
-		people.destination = scrChooseRandomFromType(destDoor)
+		do people.destination = scrChooseRandomFromType(destDoor)
+		until people.destination.y != door.y
 	}
 }

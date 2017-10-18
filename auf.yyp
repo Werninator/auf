@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "4c07b078-fa72-42cf-9c10-1f49c94029c0",
+            "Value": {
+                "id": "6c6de990-2f3e-4f82-8594-4a012f91d7da",
+                "resourcePath": "objects\\oRetryChaos\\oRetryChaos.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "50b3e653-42a8-42fa-aa57-451b177a2934",
             "Value": {
                 "id": "eebb1701-2d32-45af-a099-4c17921e30cc",
@@ -639,6 +647,14 @@
             }
         },
         {
+            "Key": "b81dbcca-0651-4cdd-9e14-5055c54e24a5",
+            "Value": {
+                "id": "694b6421-62c5-492b-a522-1e94448129be",
+                "resourcePath": "objects\\oPlayChaosButton\\oPlayChaosButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b829119f-0f7f-4363-a6b7-fbb79c60ec78",
             "Value": {
                 "id": "898afae1-e521-4892-aafc-673fd795ef37",
@@ -804,6 +820,14 @@
                 "id": "8c79bf05-66f2-4683-ab72-07efa0ac7001",
                 "resourcePath": "objects\\oPoints\\oPoints.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eb935bcf-779f-47fe-80d7-97b14471b887",
+            "Value": {
+                "id": "e6ed17b5-ef35-41c7-a96c-7288b0d6efad",
+                "resourcePath": "rooms\\rTest\\rTest.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

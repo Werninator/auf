@@ -1,6 +1,6 @@
 instance_destroy()
 
-var ptsGained = hp
+var ptsGained = maxHP
 var dest = destination
 
 with oGame {

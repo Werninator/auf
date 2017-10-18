@@ -1,0 +1,1 @@
+scrAddSpawn(oDude, oDoorArriving, 1, 3)
