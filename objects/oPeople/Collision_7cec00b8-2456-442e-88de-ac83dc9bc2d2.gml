@@ -1,13 +1,12 @@
 var destinationX
 
 with destination
-	destinationX = x
+    destinationX = x
 
 var s = sign(destinationX - x)
+var hspd = movSpd * global.dt_steady
 
-repeat(movSpd) {
-	if x + s == destinationX
-		scrReachedGoal()
+x += hspd * s
 
-	x += s
-}
+if s <= 0
+    scrReachedGoal()

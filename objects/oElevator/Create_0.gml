@@ -4,6 +4,5 @@ enum Elevator {
 }
 
 state			= Elevator.standing
-spd				= 4
-destinationX	= -1
+spd				= 200
 destinationY	= -1

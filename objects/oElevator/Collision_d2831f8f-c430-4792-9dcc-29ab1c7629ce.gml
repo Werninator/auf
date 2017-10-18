@@ -1,29 +1,20 @@
-// moving the elevator
-x += spd * sign(destinationX - x)
-y += spd * sign(destinationY - y)
+var s = sign(destinationY - y)
+var hspd = spd * global.dt_steady
 
-#region destination check
+if s < 0 && y - hspd >= destinationY
+|| s > 0 && y + hspd <= destinationY
+    y += hspd * s
+else {
+    y = destinationY
 
-if round(x - sign(x - destinationX)) == destinationX
-&& round(y - sign(y - destinationY)) == destinationY {
-	x = destinationX
-	y = destinationY
+    // trigger stop event
+    with oPeople event_perform(ev_collision, evtElevatorStop)
 
-	// trigger stop event
-	with oPeople event_perform(ev_collision, evtElevatorStop)
-
-	state = Elevator.standing
-	destinationX = -1
-	destinationY = -1
+    state = Elevator.standing
+    destinationY = -1
 }
-
-#endregion
-
-#region handle elevator spots
 
 var elevatorY = y
 
 with oElevatorSpot
-	y = elevatorY + 32
-
-#endregion
+    y = elevatorY + 32

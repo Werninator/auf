@@ -6,7 +6,7 @@ enum People {
 }
 
 state			= People.goToElevator
-movSpd			= 2
+movSpd			= 100
 destination		= noone
 maxHP			= 12
 hp				= maxHP
