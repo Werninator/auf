@@ -2,7 +2,9 @@
 
 > a game about elevators
 
-* [DOWNLOAD CURRENT VERSION](https://github.com/Werninator/auf/releases/tag/v0.2.0-alpha)
+* [DOWNLOAD PROTOTYPE](https://github.com/Werninator/auf/releases/tag/v0.2.0-alpha)
+
+**New, remastered version on [itch](https://spookyfistpump.itch.io/auf)**
 
 in **auf** you control elevator(s) to bring different people from one floor to another
 
